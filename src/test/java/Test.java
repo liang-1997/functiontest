@@ -6,6 +6,7 @@ import java.util.concurrent.FutureTask;
 public class Test {
     public static void main(String[] args) {
         System.out.println("大爷这是马冬梅家吗");
+        System.out.println("马什么梅");
     }
 }
 /*
