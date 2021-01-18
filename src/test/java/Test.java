@@ -10,6 +10,20 @@ public class Test {
         System.out.println("马冬梅啊");
         System.out.println("我是分支");
     }
+    public int numIslands(char[][] grid) {
+        int m = grid.length;
+        if(m == 0) return 0;
+        int n = grid[0].length;
+        int islands = 0;
+        for(int i = 0; i < m; i ++) {
+            for (int j = 0; j < n; j++) {
+                if(grid[i][j] == '1') {
+                    islands ++;
+                }
+            }
+        }
+        return islands;
+    }
 }
 /*
 *         MyThread3 t3=new MyThread3();
