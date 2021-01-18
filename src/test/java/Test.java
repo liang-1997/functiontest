@@ -8,9 +8,7 @@ public class Test {
         System.out.println("大爷这是马冬梅家吗");
         System.out.println("马什么梅");
         System.out.println("马冬梅啊");
-        System.out.println("---------这里是主支---------");
         System.out.println("我是分支");
-        System.out.println("---------这里是主支---------");
     }
 }
 /*
